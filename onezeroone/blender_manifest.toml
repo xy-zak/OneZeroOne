@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "onezeroone"
+version = "1.0.0"
+name = "OneZeroOne"
+tagline = "OSC-over-serial/network input remapper for Blender"
+maintainer = "Your Name"
+type = "add-on"
+blender_version_min = "5.0.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+wheels = [
+    "./wheels/pyserial-3.5-py2.py3-none-any.whl",
+    "./wheels/python_osc-1.9.3-py3-none-any.whl",
+]

@@ -1,0 +1,5 @@
+# Place Python wheel files (.whl) here and reference them in
+# blender_manifest.toml under the `wheels` key.
+#
+# Wheels must match Blender's bundled Python interpreter. Check the ABI tag
+# (e.g. cp311, cp312) for the Blender version you target.
